@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  color: #222222;
+}
+
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px auto 20px auto;
+
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1em;
+}
+
+h4 {
+  margin-bottom: 20px;
+}
