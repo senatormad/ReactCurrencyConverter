@@ -1,8 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import Select from 'react-select'
 import {colourStyles} from "./Converter.select.styles"
-import settingsPic from './images/settings.png'
-import closePic from './images/close.png'
+import settingsPic from '../../images/settings.png'
+import closePic from '../../images/close.png'
 
 
 
