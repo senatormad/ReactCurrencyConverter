@@ -256,17 +256,17 @@ input {
 }
 
 .settingButton img:hover, .closePicker img:hover {
-  -webkit-animation:spin 0.4s linear 1;
-  -moz-animation:spin 0.4s linear 1;
-  animation:spin 0.4s linear 1;
+  -webkit-animation:spin 0.2s linear 1;
+  -moz-animation:spin 0.2s linear 1;
+  animation:spin 0.2s linear 1;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-timing-function:ease-in-out;
 
 }
 
-@-moz-keyframes spin { 100% { -moz-transform: rotate(180deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(180deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(180deg); transform:rotate(180deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(90deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(90deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(90deg); transform:rotate(90deg); } }
 
 .settingButton img:active, .closePicker img:active {
     opacity: 0.6;
