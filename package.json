@@ -1,7 +1,10 @@
 {
   "name": "exchange",
   "version": "0.1.0",
-  "private": true,
+  "engines": {
+    "node": "6.11.1"
+  },
+  "private": false,
   "homepage": "https://github.com/senatormad/ReactCurrencyConverter",
   "dependencies": {
     "chroma-js": "^2.0.4",
